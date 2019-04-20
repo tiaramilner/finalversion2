@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script>
+        function getGrade(letterGrade) {
+            if (letterGrade =="A") {
+                return 4.00;
+            }
+            else if (letterGrade == "B") {
+                return 3.00;
+            }
+            else if (letterGrade =="C") {
+                return 2.00;
+            }
+            else if (letterGrade =="D") {
+                return 1.00;
+            }
+            else {
+                return 0.00;
+            }
+        }
+
+        function calc() {
+        var ocount = 0 , ogpa = 0
+        var bcount = 0 , bgpa = 0
+        var mcount = 0 , mgpa = 0
+
+
+        var gen01 =document.getElementById("gen01").value;
+        var gen02 =document.getElementById("gen02").value;
+        var gen03 =document.getElementById("gen03").value;
+        var gen04 =document.getElementById("gen04").value;
+        var gen05 =document.getElementById("gen05").value;
+        var gen06 =document.getElementById("gen06").value;
+        var gen07 =document.getElementById("gen07").value;
+        var gen08 =document.getElementById("gen08").value;
+        var gen09 =document.getElementById("gen09").value;
+        var gen10 =document.getElementById("gen10").value;
+        var gen11 =document.getElementById("gen11").value;
+        var gen12 =document.getElementById("gen12").value;
+        var gen13 =document.getElementById("gen13").value;
+        var gen14 =document.getElementById("gen14").value;
+        var biz01 =document.getElementById("biz01").value;
+        var biz02 =document.getElementById("biz02").value;
+        var biz03 =document.getElementById("biz03").value;
+        var biz04 =document.getElementById("biz04").value;
+        var biz05 =document.getElementById("biz05").value;
+        var biz06 =document.getElementById("biz06").value;
+        var biz07 =document.getElementById("biz07").value;
+        var biz08 =document.getElementById("biz08").value;
+        var biz09 =document.getElementById("biz09").value;
+        var biz10 =document.getElementById("biz10").value;
+        var biz11 =document.getElementById("biz11").value;
+        var biz12 =document.getElementById("biz12").value;
+        var biz13 =document.getElementById("biz13").value;
+        var biz14 =document.getElementById("biz14").value;
+        var biz15 =document.getElementById("biz15").value;
+        var biz16 =document.getElementById("biz16").value;
+        var biz17 =document.getElementById("biz17").value;
+        var biz18 =document.getElementById("biz18").value;
+        var biz19 =document.getElementById("biz19").value;
+        var maj01 =document.getElementById("maj01").value;
+        var maj02 =document.getElementById("maj01").value;
+        var maj03 =document.getElementById("maj01").value;
+        var maj04 =document.getElementById("maj01").value;
+        var maj05 =document.getElementById("maj01").value;
+        var maj06 =document.getElementById("maj01").value;
+        var maj07 =document.getElementById("maj01").value;
+        var maj08 =document.getElementById("maj01").value;
+        var maj09 =document.getElementById("maj01").value;
+        var maj10 =document.getElementById("maj10").value;
+
+
+
+        }
+            if (gen01 !="-") {
+            ocount = ocount + 1;
+            ogpa = ogpa + getGrade(gen01);
+        }
+            if (gen02 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen02);
+            }
+
+            if (gen03 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen03);
+            }
+            if (gen04 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen04);
+            }
+            if (gen05 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen05);
+            }
+            if (gen06 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen06);
+            }
+            if (gen07 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen07);
+            }
+            if (gen08 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen08);
+            }
+            if (gen09 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen09);
+            }
+            if (gen10 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen10);
+            }
+            if (gen11 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen11);
+            }
+            if (gen12 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen12);
+            }
+            if (gen13 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen13);
+            }
+            if (gen14 !="-") {
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(gen14);
+            }
+            if (biz01 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz01);
+                bgpa = bgpa + getGrade(biz01);
+            }
+            if (biz02 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz02);
+                bgpa = bgpa + getGrade(biz02);
+            }
+            if (biz03 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz03);
+                bgpa = bgpa + getGrade(biz03);
+            } if (biz04 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz04);
+                bgpa = bgpa + getGrade(biz04);
+            } if (biz05 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz05);
+                bgpa = bgpa +getGrade(biz05);
+            } if (biz06 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz06);
+                bgpa = bgpa + getGrade(biz06);
+            } if (biz07 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz07);
+                bgpa = bgpa + getGrade(biz07);
+            } if (biz08 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz08);
+                bgpa = bgpa + getGrade(biz08);
+            } if (biz09 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz09);
+                bgpa = bgpa +getGrade(biz09);
+            } if (biz10 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz10);
+                bgpa = bgpa + getGrade(biz10);
+            } if (biz11 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz11);
+                bgpa = bgpa + getGrade(biz11);
+            } if (biz12 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz12);
+                bgpa = bgpa + getGrade(biz12);
+            } if (biz13 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz13);
+                bgpa = bgpa + getGrade(biz13);
+            } if (biz14 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz14);
+                bgpa = bgpa + getGrade(biz14);
+            } if (biz15 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz15);
+                bgpa = bgpa + getGrade(biz15);
+            } if (biz16 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz16);
+                bgpa = bgpa + getGrade(biz16);
+            } if (biz17 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz17);
+                bgpa = bgpa + getGrade(biz17);
+            } if (biz18 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz18);
+                bgpa = bgpa + getGrade(biz18);
+            } if (biz19 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                ogpa = ogpa + getGrade(biz19);
+                bgpa = bgpa + getGrade(biz19);
+            }
+            if (maj01 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                mcount = mcount + 1;
+                ogpa = ogpa + getGrade(maj01);
+                bgpa = bgpa + getGrade(maj01);
+                mgpa = mgpa + getGrade(maj01);
+            }
+            if (maj02 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                mcount = mcount + 1;
+                ogpa = ogpa + getGrade(maj02);
+                bgpa = bgpa + getGrade(maj02);
+                mgpa = mgpa + getGrade(maj02);
+            } if (maj03 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                mcount = mcount + 1;
+                ogpa = ogpa + getGrade(maj03);
+                bgpa = bgpa + getGrade(maj03);
+                mgpa = mgpa + getGrade(maj03);
+            } if (maj04 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                mcount = mcount + 1;
+                ogpa = ogpa + getGrade(maj04);
+                bgpa = bgpa + getGrade(maj04);
+                mgpa = mgpa + getGrade(maj04);
+            } if (maj05 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                mcount = mcount + 1;
+                ogpa = ogpa + getGrade(maj05);
+                bgpa = bgpa + getGrade(maj05);
+                mgpa = mgpa + getGrade(maj05);
+            } if (maj06 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                mcount = mcount + 1;
+                ogpa = ogpa + getGrade(maj06);
+                bgpa = bgpa + getGrade(maj06);
+                mgpa = mgpa + getGrade(maj06);
+            } if (maj07 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                mcount = mcount + 1;
+                ogpa = ogpa + getGrade(maj07);
+                bgpa = bgpa + getGrade(maj07);
+                mgpa = mgpa + getGrade(maj07);
+            } if (maj08 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                mcount = mcount + 1;
+                ogpa = ogpa + getGrade(maj08);
+                bgpa = bgpa + getGrade(maj08);
+                mgpa = mgpa + getGrade(maj08);
+            } if (maj09 !="-") {
+                ocount = ocount + 1;
+                bcount = bcount + 1;
+                mcount = mcount + 1;
+                ogpa = ogpa + getGrade(maj09);
+                bgpa = bgpa + getGrade(maj09);
+                mgpa = mgpa + getGrade(maj09);
+            }
+
+            document.getElementById("ogpa").innerText= ogpa / ocount;
+            document.getElementById("bgpa").innerText= bgpa / bcount;
+            document.getElementById("mgpa").innerText= mgpa / mcount;
+
+
+
+        }
+
+
+    </script>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">GradeTracker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+
+
+            </ul>
+
+        </div>
+    </nav>
+<div class="container">
+    <h2>Year 1 Classes</h2>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Course</th>
+            <th scope="col">Cr</th>
+            <th scope="col">Gr</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Freshmen English I</td>
+            <td>3</td>
+            <td>
+                <select class="form-control" id="gen01">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select>
+
+            </td>
+        </tr>
+        <tr>
+            <td>College Algebra II</td>
+            <td>3</td>
+            <td>       <select class="form-control" id="gen02">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select></td>
+        </tr>
+        <tr>
+
+            <td>Business Problem Solving </td>
+            <td>3</td>
+            <td>       <select class="form-control" id="biz01">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select></td>
+        </tr>
+        <tr>
+
+            <td>Foreign Language I</td>
+            <td>3</td>
+            <td>       <select class="form-control" id="gen03">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select></td>
+        </tr>
+        <tr>
+
+            <td>Afro- American Elective</td>
+            <td>3</td>
+            <td>       <select class="form-control" id="gen04">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select></td>
+        </tr>
+        <tr>
+
+            <td>Intro to Psychology</td>
+            <td>1</td>
+            <td>       <select class="form-control" id="gen08">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select></td>
+        </tr>
+        <tr>
+
+            <td>Business Orientation I</td>
+            <td>1</td>
+            <td>       <select class="form-control" id="biz02">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select></td>
+        </tr>
+        <tr>
+
+            <td>Freshmen English II</td>
+            <td>3</td>
+            <td>       <select class="form-control" id="gen05">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select></td>
+        </tr>
+        <tr>
+
+            <td>Applied Calculus</td>
+            <td>4</td>
+            <td>       <select class="form-control" id="gen06">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select></td>
+        </tr>
+        <tr>
+
+            <td>Business Orientation II</td>
+            <td>3</td>
+            <td>       <select class="form-control" id="biz03">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select></td>
+        </tr>
+        <tr>
+
+            <td>Foreign Language II</td>
+            <td>3</td>
+            <td>       <select class="form-control" id="gen07">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select></td>
+        </tr>
+        <tr>
+
+            <td>Physical Education- Activity</td>
+            <td>1</td>
+            <td>       <select class="form-control" id="gen09">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select></td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="container">
+        <h2>Year 2 Classes</h2>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Course</th>
+                <th scope="col">Cr</th>
+                <th scope="col">Gr</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+
+                <td>Statistics- Business & Economics</td>
+                <td>3</td>
+                <td>       <select class="form-control" id="biz04">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            <tr>
+
+                <td>Principles of Economics</td>
+                <td>3</td>
+                <td>       <select class="form-control" id="biz05">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            <tr>
+
+                <td>Accounting Principles I</td>
+                <td>1</td>
+                <td>       <select class="form-control" id="biz06">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            <tr>
+
+                <td>Management Information Systems</td>
+                <td>3</td>
+                <td>       <select class="form-control" id="maj01">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            <tr>
+
+                <td>Career Counseling</td>
+                <td>1</td>
+                <td>       <select class="form-control" id="biz07">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            <tr>
+
+                <td>Physical Education- Health</td>
+                <td>1</td>
+                <td>       <select class="form-control" id="gen10">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            <tr>
+
+                <td>History or Political Science </td>
+                <td>3</td>
+                <td>       <select class="form-control" id="gen11">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            <tr>
+
+                <td>Principles of Economics II</td>
+                <td>3</td>
+                <td>       <select class="form-control" id="biz08">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            <tr>
+
+                <td>Accounting Principles II </td>
+                <td>3</td>
+                <td>       <select class="form-control" id="biz09">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            <tr>
+
+                <td>Intro to Software Design</td>
+                <td>3</td>
+                <td>       <select class="form-control" id="maj02">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            <tr>
+
+                <td>Business Communication </td>
+                <td>3</td>
+                <td>       <select class="form-control" id="biz10">
+                    <option>-</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                </select></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="container">
+            <h2>Year 3 Classes</h2>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Course</th>
+                    <th scope="col">Cr</th>
+                    <th scope="col">Gr</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+
+                    <td>Quantitative Business Analysis</td>
+                    <td>3</td>
+                    <td>       <select class="form-control" id="biz11">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></td>
+                </tr>
+                <tr>
+
+                    <td>Database Management</td>
+                    <td>3</td>
+                    <td>       <select class="form-control" id="maj03">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></td>
+                </tr>
+                <tr>
+
+                    <td>Science Elective</td>
+                    <td>4</td>
+                    <td>       <select class="form-control" id="gen12">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></td>
+                </tr>
+                <tr>
+
+                    <td>Management and Organizational Behavior </td>
+                    <td>3</td>
+                    <td>       <select class="form-control" id="biz12">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></td>
+                </tr>
+                <tr>
+
+                    <td>Principles of Marketing </td>
+                    <td>3</td>
+                    <td>       <select class="form-control" id="biz13">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></td>
+                </tr>
+                <tr>
+
+                    <td>Production and Operations Management </td>
+                    <td>3</td>
+                    <td>       <select class="form-control" id="biz14">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></td>
+                </tr>
+                <tr>
+
+                    <td>Intro to Data and Network Communication </td>
+                    <td>3</td>
+                    <td>       <select class="form-control" id="maj04">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></td>
+                </tr>
+                <tr>
+
+                    <td>Finance Principles </td>
+                    <td>3</td>
+                    <td>       <select class="form-control" id="biz15">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></td>
+                </tr>
+                <tr>
+
+                    <td>Business Law I </td>
+                    <td>3</td>
+                    <td>       <select class="form-control" id="biz16">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></td>
+                </tr>
+                <tr>
+
+                    <td>Systems Analysis and Design</td>
+                    <td>3</td>
+                    <td>       <select class="form-control" id="maj05">
+                        <option>-</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></td>
+                </tr>
+                </tbody>
+                <div class="container">
+                    <h2>Year 4 Classes</h2>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Course</th>
+                            <th scope="col">Cr</th>
+                            <th scope="col">Gr</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+
+                            <td>CIS Elective I</td>
+                            <td>3</td>
+                            <td>       <select class="form-control" id="maj06">
+                                <option>-</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                                <option>F</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+
+                            <td>CIS Elective II</td>
+                            <td>3</td>
+                            <td>       <select class="form-control" id="maj07">
+                                <option>-</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                                <option>F</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+
+                            <td>Intro to eBusiness and Commerce</td>
+                            <td>3</td>
+                            <td>       <select class="form-control" id="maj08">
+                                <option>-</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                                <option>F</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+
+                            <td>Managerial Economics</td>
+                            <td>3</td>
+                            <td>       <select class="form-control" id="biz17">
+                                <option>-</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                                <option>F</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+
+                            <td>Non- Business Elective</td>
+                            <td>3</td>
+                            <td>       <select class="form-control" id="gen13">
+                                <option>-</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                                <option>F</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+
+                            <td>Information Systems Consulting</td>
+                            <td>3</td>
+                            <td>       <select class="form-control" id="maj09">
+                                <option>-</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                                <option>F</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+
+                            <td>Entrepreneurship</td>
+                            <td>3</td>
+                            <td>       <select class="form-control" id="biz18">
+                                <option>-</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                                <option>F</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+
+                            <td>CIS Elective</td>
+                            <td>3</td>
+                            <td>       <select class="form-control" id="maj10">
+                                <option>-</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                                <option>F</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+
+                            <td>Philosophy Elective</td>
+                            <td>3</td>
+                            <td>       <select class="form-control" id="gen14">
+                                <option>-</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                                <option>F</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+
+                            <td>Business Policy</td>
+                            <td>3</td>
+                            <td>       <select class="form-control" id="biz19">
+                                <option>-</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                                <option>F</option>
+                            </select></td>
+                        </tr>
+                        </tbody>
+<div class="row">
+    <button type="button" onclick="calc()">Calculate</button>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                Overall GPA
+            </div>
+            <div class="col-sm">
+                Business GPA
+            </div>
+            <div class="col-sm">
+Major GPA
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm" id="ogpa">
+                0.0
+            </div>
+            <div class="col-sm" id="bizgpa">
+                0.0
+            </div>
+            <div class="col-sm" id="mgpa">
+                0.0
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
